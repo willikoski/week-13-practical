@@ -26,4 +26,3 @@ app.get('/magic/:question', (req, res) => {
     const response = potentialAnswers [Math.floor (Math.random() * potentialAnswers.length)]
     res.send (`Question: ${question} Answer: ${response}`)
 })
-
